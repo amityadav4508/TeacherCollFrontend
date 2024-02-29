@@ -1,0 +1,53 @@
+// our main colors used in project
+
+$charcoal:     #606176 !default;
+$purple:   #353B85 !default;
+$indigo:   #1C3669 !default;
+$yellow:   #FEE715 !default;
+$orange:   #FF7B00 !default;
+$pink:     #F77B99 !default;
+$cyan:     #40BFFF !default;
+$blue:     #1670F8 !default;
+$white:    #ffffff !default;
+$black:    #000000 !default;
+$gray-100: #252641 !default;
+$gray-200: #333333 !default;
+$gray-300: #6C6C6C !default;
+$gray-400: #FAFAFA !default;
+$gray-500: #F7F7F7 !default;
+$gray-600: #d2d2d2 !default;
+$gray-700: #32383F !default;
+$gray-800: #101820 !default;
+$gray-900: #212121 !default;
+$black-tint: #2C2B2B !default;
+$blue-tint: #1C3669 !default;
+$blue-tint: linear-gradient(91.9deg, #1670F8 13.86%, #1C3669 87.7%) !default;
+
+
+// scss-docs-start theme-color-variables
+$primary:       $blue    !default;
+$secondary:     $purple   !default;
+$warning:       $yellow   !default;
+$success:       $charcoal   !default;
+$info:          $cyan     !default;
+$light:         $gray-100 !default;
+$dark:          $gray-200 !default;
+
+
+
+// font-sizes
+
+$custom-xxl-font: 56px;
+$custom-xl-font: 44px;
+$custom-lg-font: 32px;
+$custom-md-font: 26px;
+$custom-sm-font: 20px;
+$custom-xsm-font: 18px;
+$custom-xxsm-font: 16px;
+
+// breakpoints
+
+$small: 768px;
+$medium: 999px;
+$large:1399px;
+

@@ -1,0 +1,185 @@
+.pricing-wrap-st {
+  .st-header-wrap {
+    .drop-icn-img {
+      .avatar-img {
+        width: 19px;
+        margin-top: 1px;
+      }
+    }
+
+    .dropdown-header {
+      font-size: $custom-xxsm-font;
+      color: $black;
+
+      @media screen and (max-width: $large) {
+        font-size: 14px;
+      }
+    }
+
+    .phn-sos {
+      width: 32px;
+    }
+  }
+
+  .price-main-wrap {
+    padding-top: 100px;
+   
+    padding-bottom: 165px;
+
+    .recomend {
+      margin-top: -49px;
+      background: #00894a;
+      font-weight: 700;
+      font-size: 24px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .pricing-plan {
+      background: #ffffff;
+      box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.1);
+      transition: 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(0.97);
+      }
+
+      .plan-cost {
+        text-align: center;
+        background: #edaf36;
+        color: $white;
+
+        .plan-title {
+          font-weight: 700;
+          font-size: 32px;
+        }
+
+        .plan-price {
+          font-weight: 500;
+          font-size: 82px;
+          height: 106px;
+        }
+
+        .plan-type {
+          font-weight: 400;
+          font-size: 26px;
+        }
+
+        hr {
+          width: 245px;
+          margin: 0 auto;
+          color: #ffff;
+          opacity: 1.3;
+        }
+      }
+
+      .plan-feature-outer {
+        flex-direction: column;
+        justify-content: space-between;
+        height: calc(100% - 223px);
+        padding-bottom: 30px;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          background: url(../assets/images/st-landing/list-img.svg);
+
+          background-repeat: no-repeat;
+
+          padding: 20px;
+          margin: 0;
+          padding-left: 51px;
+          background-position-y: 18px;
+          background-position-x: 11px;
+
+          margin: 0;
+
+          p {
+            margin-bottom: 0;
+          }
+
+          .para-wrap-li {
+            font-weight: 400;
+            font-size: 16px;
+            color: #282f39;
+          }
+
+          .inner-span-element {
+            font-weight: 400;
+            font-size: 14px;
+            color: #282f39;
+          }
+        }
+
+        li:nth-child(odd) {
+          background-color: #f7f7f7;
+        }
+      }
+
+      .button-custom {
+        padding: 10px 54px;
+      }
+
+      .plan-cost-gold {
+        background: #3bb77e;
+      }
+
+      .plan-cost-diamond {
+        background: #1c3669;
+      }
+
+      .plan-cost-platinum {
+        background: #2375f3;
+      }
+
+      .silver-btn {
+        background: #ecaf36;
+      }
+
+      .gold-btn {
+        background: #3bb77e;
+      }
+
+      .diamond-btn {
+        background: #1c3669;
+      }
+
+      .platinum-btn {
+        background: #2375f3;
+      }
+    }
+  }
+}
+
+.order-now-price {
+  margin: 0;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.order-cec-outer-st {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.oerder-inner-check {
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.return-st-cancel {
+  a {
+    color: #1670f8;
+
+  }
+}

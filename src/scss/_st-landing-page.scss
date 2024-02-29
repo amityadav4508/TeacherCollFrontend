@@ -1,0 +1,576 @@
+.ful-sec-st {
+    .st-header-wrap {
+        .drop-icn-img {
+
+            .avatar-img {
+                width: 19px;
+                margin-top: 1px;
+            }
+        }
+
+        .dropdown-header {
+            font-size: $custom-xxsm-font;
+            color: $black;
+
+            @media screen and (max-width: $large) {
+                font-size: 14px;
+            }
+        }
+
+        .phn-sos {
+            width: 32px;
+        }
+    }
+
+    .study-support {
+        padding-top: 130px;
+        padding-bottom: 130px;
+        background-image: url(../assets/images/st-landing/hero-bg.png);
+        overflow: hidden;
+        background-size: cover;
+
+        .bannre-heading {
+
+            @media screen and (max-width: $large) {
+                font-size: 33px;
+            }
+        }
+
+        .st-search-custom {
+            padding: 14px 45px;
+        }
+
+        .pq-st-btn {
+            margin: 0 auto;
+
+            background: $white;
+
+
+            font-weight: 600;
+            font-size: $custom-xsm-font;
+            letter-spacing: -0.01em;
+            color: $black;
+        }
+    }
+
+    .new-way-learning {
+        background-image: url(../assets/images/st-landing/bg-expert-st.png);
+
+        @media screen and (max-width: $medium) {
+            background-size: 548%;
+        }
+
+
+        .client-img {
+            width: 743px;
+
+        }
+
+        h2 {
+            font-size: 40px;
+            color: $white;
+            font-weight: 500;
+
+            @media screen and (max-width: $medium) {
+                font-size: 23px;
+            }
+        }
+
+        h5 {
+            color: #98C0FC;
+            font-size: 23px;
+            font-weight: 500;
+
+            @media screen and (max-width: $large) {
+                font-size: $custom-xsm-font;
+            }
+        }
+
+        p {
+            color: $white;
+            font-weight: 400;
+            font-size: $custom-xsm-font;
+
+            @media screen and (max-width: $large) {
+                font-size: 13px;
+            }
+        }
+
+        .expert-st-btn {
+            background: $white;
+            color: $dark;
+            font-weight: 600;
+            font-size: $custom-xsm-font;
+
+            @media screen and (max-width: $medium) {
+                font-size: 13px;
+            }
+        }
+
+
+    }
+
+    .about-st-cool {
+
+
+
+
+        @media screen and (max-width: $medium) {
+            margin-top: 30px;
+        }
+
+        @media screen and (max-width: $small) {
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: $custom-xsm-font;
+            color: #606176;
+        }
+
+        h3 {
+            font-size: $custom-xl-font;
+
+            @media screen and (max-width: $large) {
+                font-size: 35px;
+            }
+        }
+
+        .expert-st-btn {
+            display: block;
+            margin: 0 auto;
+
+            @media screen and (max-width: $small) {
+                margin-top: 15px !important;
+            }
+        }
+
+
+
+        .form-sectionn {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            max-width: 600px;
+
+            .form-wrapperr {
+                -webkit-column-gap: 20px;
+                column-gap: 20px;
+                display: flex;
+
+                .form-control {
+                    background: transparent;
+                    border: 1px solid #1670F8;
+                    border-radius: 100px;
+                    border-radius: 80px;
+                    /* color: #fff; */
+                    height: 51px;
+                    padding: 18px 30px;
+                }
+
+                input::placeholder {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #1670F8;
+                }
+            }
+
+            h4 {
+                font-weight: 700;
+                font-size: 24px;
+                color: #333333;
+            }
+        }
+    }
+.assignment-sec-wrap{
+    .card{
+        background: #3BB77E;
+        &:hover{
+            background: #1670f8;
+        }
+    }
+}
+    .order-with-us-st {
+
+        .order-inner-wrap {
+            background: #1C3669;
+
+            h2 {
+                letter-spacing: -0.01em;
+                font-weight: 700;
+                font-size: 44px;
+                color: $white;
+
+                @media screen and (max-width: $small) {
+                    font-size: 30px;
+                }
+            }
+
+            p {
+                font-size: 18px;
+                letter-spacing: -0.01em;
+                font-weight: 400;
+
+                color: $white;
+
+                @media screen and (max-width: $small) {
+                    font-size: 16px;
+                }
+
+            }
+
+
+            // .bg-img-st-video{
+            //     background-image: url(../assets/images/st-landing/video-bg-st.png);
+            // }
+        }
+
+    }
+
+    .video-btn-size {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 33%;
+        bottom: 0;
+
+        @media screen and (max-width: $medium) {
+            width: 140px;
+        }
+
+        @media screen and (max-width: $small) {
+            width: 70px;
+        }
+
+    }
+
+    .refer-friend-st {
+
+        .refer-inner-st {
+            display: flex;
+
+            @media screen and (max-width: $medium) {
+                display: block;
+            }
+
+            background: #F4F4F4;
+        }
+
+        h4 {
+            font-size: 44px;
+
+            @media screen and (max-width: $large) {
+                font-size: 30px;
+            }
+        }
+
+        .width-custom-st {
+            @media screen and (max-width: $large) {
+                width: 318px;
+            }
+
+        }
+
+        .expert-st-btn {
+            background: #3BB77E;
+            color: #FFFFFF;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                font-size: 24px;
+                margin-bottom: 16px;
+                font-weight: 300;
+
+                @media screen and (max-width: $large) {
+                    font-size: 20px;
+                }
+
+                span {
+
+                    background: #fff;
+                    padding: 0px 11px 0px 11px;
+                    border-radius: 6.2069px;
+                    margin-right: 14px;
+                    color: #3BB77E;
+                    display: inline-block;
+                    min-width: 36px;
+                    text-align: center;
+                }
+            }
+        }
+
+        p {
+            padding-left: 64px;
+
+            @media screen and (max-width: $medium) {
+                padding-left: 0px;
+            }
+        }
+
+        .border-st {
+
+            border-right: 1px solid #D9D9D9;
+
+        }
+
+    }
+
+
+    .the-best {
+
+        .card-module-inner-st {
+            border: 2px solid #FFFFFF;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.9s ease;
+            min-height: 456px;
+
+
+            &.active {
+                background: #FFFFFF;
+                transition: all .9s;
+                transform: translateY(-10px);
+              }
+            &:hover {
+                background: #FFFFFF;
+                transition: all .9s;
+                transform: translateY(-10px);
+
+                h4 {
+                    color: $dark;
+                }
+
+                p {
+                    color: $black;
+                }
+
+                img {
+                    filter: invert(1);
+                }
+            }
+        }
+
+        .best-module {
+            background: #3BB77E;
+            padding: 54px 90px 54px 90px;
+
+            h2 {
+                font-weight: 700;
+                font-size: 44px;
+                color: #FFFFFF;
+                
+             
+            }
+            
+        }
+    }
+
+
+
+    .expert-help-st {
+        @include spacing;
+
+        .client-name-st-expert {
+            display: flex;
+
+            @media screen and (max-width: $medium) {
+                display: block;
+            }
+        }
+
+        .form-notification {
+
+            overflow: hidden;
+            background-size: cover;
+
+
+
+            .usre-info-st {
+                h5 {
+                    font-size: 16px;
+                    color: #1670F8;
+                    font-weight: 600;
+                    margin-top: 10px;
+                    margin-left: 16px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #6D7280;
+                }
+            }
+
+            .right-sec-st {
+                max-width: 46%;
+
+                @media screen and (max-width: $medium) {
+                    max-width: 100%;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #374151;
+                }
+            }
+
+
+        }
+    }
+
+
+
+}
+
+.modal-wrap-st-expert {
+
+    .modal-content {
+        background: #FAFAFA;
+        border-radius: 20px;
+    }
+
+    .modal-inner-heading {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .inner-para-st-expert {
+        font-weight: 400;
+        font-size: 16px;
+        color: #6D7280;
+    }
+
+    .label-expert-st {
+        font-weight: 500;
+        font-size: 20px;
+        color: #333333;
+    }
+
+    .tabs-inner-content {
+        .form-control {
+            transition: none;
+            background-size: 2.2%;
+            border: 1px solid #EEEEEE;
+
+
+        }
+
+        input::placeholder {
+            font-weight: 300;
+            font-size: 14px;
+            color: #606176;
+        }
+
+        .form-select {
+
+
+            background-size: 2.2%;
+        }
+
+        input::placeholder {
+            font-weight: 300;
+            font-size: 14px;
+            color: #606176;
+        }
+    }
+
+
+    .tutar-easy-st {
+        .heading-wrap-tutor {
+            font-weight: 700;
+            font-size: 44px;
+            color: #333333;
+        }
+
+        .para-e-wrap {
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: -0.01em;
+
+            color: #606176;
+        }
+    }
+
+}
+
+.card-lead-st {
+    background: #fff;
+
+    padding: 62px;
+}
+
+
+
+// /what aQuestion/ 
+
+
+.what-is-the-question {
+    h6 {
+        font-weight: 600;
+        font-size: 16px;
+        color: #333333;
+        opacity: 0.8;
+    }
+
+    .ques-inner-wrap {
+
+        h3 {
+            font-weight: 600;
+            font-size: 20px;
+            color: #333333;
+        }
+    }
+
+}
+
+
+.my-folder-wrap-outer {
+    .inner-my-folder-st {
+        display: flex;
+
+        @media screen and (max-width: $medium) {
+            display: block;
+            text-align: center;
+            margin-bottom: 31px;
+        }
+
+
+        h6 {
+            font-weight: 500;
+            font-size: 16px;
+            color: #606176;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #606176;
+            line-height: 24px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #3280F7;
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+}
+
+.career-st-form {
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    border: 1px solid;
+
+    li {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+}

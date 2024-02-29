@@ -1,0 +1,432 @@
+.order-us-wrapper {
+    @include spacing;
+
+    .Tabs {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .nav-item {
+        margin-right: 30px;
+    }
+
+    .nav-tabs {
+        justify-content: center;
+    }
+
+    .nav-link {
+        font-size: $custom-xxsm-font;
+        color: #6D6D6D;
+        font-weight: 600;
+
+
+    }
+
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
+        color: #fff;
+        border-radius: 100px;
+        padding: 10px 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        background: #1670f8;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+    .nav-tabs .nav-link:hover,
+    .nav-tabs .nav-link:focus {
+
+        border-color: transparent;
+    }
+
+    .nav-tabs {
+        --cui-nav-tabs-border-width: 0px;
+    }
+
+}
+
+h2 {
+    font-size: $custom-xl-font;
+}
+
+.main-acc-wrapper {
+    .accordion-item {
+        background: #1C3669;
+        border: 1px solid #DADADA;
+        color: #fff;
+
+        a {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .accordion {
+
+            border-color: none !important;
+
+
+        }
+
+        .accordion-header {
+            .accordion-button {
+                font-weight: 600;
+                font-size: 20px;
+
+                @media screen and (max-width: $large) {
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .accordion-button {
+
+
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .accordion-button:not(.collapsed) {
+            color: #fff;
+            background-color: #1C3669;
+            box-shadow: inset 0 calc(-1 * var(--cui-accordion-border-width)) 0 var(--cui-accordion-border-color);
+        }
+
+        .accordion-button {
+
+
+            &:not(.collapsed) {
+                &::after {
+                    background-image: url(../assets/images/landing-page/accordion-icn.svg);
+
+                }
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+    }
+
+    .accordion-button:not(.collapsed)::after {
+
+        transform: none !important;
+    }
+
+    .accordion-button:not(.collapsed) {
+
+        box-shadow: none !important;
+    }
+
+    button.accordion-button.collapsed {
+
+        font-weight: 300;
+        font-size: 26px;
+        color: #6F6F6F;
+
+        @media screen and (max-width: $medium) {
+            font-size: 16px;
+        }
+    }
+}
+
+
+
+
+.books-outer-wrap {
+
+
+    h2 {
+
+        font-size: $custom-xl-font;
+        color: $gray-200;
+    }
+
+    .inner-newletter-card {
+        background: #FFFFFF;
+        box-shadow: 0px 32.0741px 56.1296px -8.01852px rgba(0, 0, 0, 0.03);
+        border-radius: 22.4519px;
+
+
+
+        .main-wrap-img {
+            border-radius: 20px;
+        }
+
+        h3 {
+            font-size: $custom-md-font;
+            line-height: 34px;
+            color: $gray-200;
+        }
+
+        p {
+            font-size: $custom-xxsm-font;
+            color: $charcoal;
+            letter-spacing: -0.01em;
+        }
+    }
+
+}
+
+.books-outer-wrap-course {
+    background: #F9F9F9;
+
+    h2 {
+
+        font-size: $custom-xl-font;
+        color: $gray-200;
+    }
+
+    .inner-newletter-card {
+        background: #FFFFFF;
+        box-shadow: 0px 32.0741px 56.1296px -8.01852px rgba(0, 0, 0, 0.03);
+        border-radius: 22.4519px;
+
+
+
+        .main-wrap-img {
+            border-radius: 20px;
+        }
+
+        h3 {
+            font-size: $custom-md-font;
+            line-height: 34px;
+            color: $gray-200;
+        }
+
+        p {
+            font-size: $custom-xxsm-font;
+            color: $charcoal;
+            letter-spacing: -0.01em;
+        }
+    }
+
+}
+
+.books-outer-practice {
+    h2 {
+
+        font-size: $custom-xl-font;
+        color: $gray-200;
+    }
+
+    .inner-newletter-card {
+        background: #FFFFFF;
+        box-shadow: 0px 32.0741px 56.1296px -8.01852px rgba(0, 0, 0, 0.03);
+        border-radius: 22.4519px;
+
+
+
+        .main-wrap-img {
+            border-radius: 20px;
+        }
+
+        h3 {
+            font-size: $custom-md-font;
+            line-height: 34px;
+            color: $gray-200;
+        }
+
+        p {
+            font-size: $custom-xxsm-font;
+            color: $charcoal;
+            letter-spacing: -0.01em;
+        }
+    }
+}
+
+
+// order-us
+
+.subscription-outer-wrap {
+
+    h1 {
+        font-size: $custom-xl-font;
+        @media screen and (max-width: $large) {
+          
+            font-size: $custom-md-font;
+          }
+        
+        @media screen and (max-width: $small) {
+          
+            font-size: $custom-md-font;
+          }
+    }
+
+    .apply-btn-wrap {
+        background: #EEEEEE;
+        color: #1670F8;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .subs-inner-wrap {
+        display: grid;
+        grid-template-columns: 1.9fr 2fr 1fr;
+        column-gap: 27px;
+        border-bottom: 1px solid #E4E4E4;
+        padding-bottom: 20px;
+        @media screen and (max-width: $large) {
+          
+            column-gap: 40px;
+          }
+        @media screen and (max-width: $medium) {
+            grid-template-columns: auto;
+          
+          }
+
+        .border-grey {
+            border-right: 1px solid #D2D2D2;
+            padding-right: 30px;
+        }
+
+        .wrap-sec {
+            h3 {
+                font-size: $custom-xl-font;
+                color: $blue;
+                font-weight: 700;
+                @media screen and (max-width: $large) {
+                    font-size: 30px;
+                  }
+            }
+
+            h5 {
+                font-size: $custom-md-font;
+                font-weight: 600;
+                color: $gray-200;
+            }
+
+            p {
+                color: $charcoal;
+                font-weight: 400;
+                letter-spacing: -0.01em;
+                line-height: 27px;
+
+            }
+
+            h6 {
+                color: #6D7280;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+            }
+
+
+        }
+
+        .wrap-third {
+            p {
+                font-weight: 600;
+                font-size: 20px;
+                color: #111827;
+                @media screen and (max-width: $large) {
+                    font-size: 18px;
+                  }
+        
+            }
+
+            Button {
+                font-weight: 600;
+                font-size: 18px;
+                padding: 9px 65px;
+
+                @media screen and (max-width: $large) {
+                    padding: 9px 37px;
+                    font-size: 16px;
+                  }
+            }
+        }
+
+
+
+        .buy-now-img-wrap{
+            @media screen and (max-width: $large) {
+               width: 100%;
+              }
+        }
+    }
+
+    .book-details {
+        h3 {
+            font-weight: 700;
+            font-size: 26px;
+            color: #333333;
+        }
+
+
+
+        .book-detail-inner-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 27px;
+            border-bottom: 1px solid #E4E4E4;
+            padding-bottom: 20px;
+            @media screen and (max-width: $medium) {
+                grid-template-columns: auto;
+              }
+
+            ul {
+                list-style: none;
+
+                li {
+                    font-size: 16px;
+                    line-height: 28px;
+
+                    span {
+                        font-weight: 700;
+                        color: #606176;
+                    }
+                }
+            }
+        }
+    }
+
+    .more-info-wrap {
+        border-bottom: 1px solid #E4E4E4;
+        padding-bottom: 20px;
+
+        h3 {
+            font-weight: 700;
+            font-size: 26px;
+            color: #333333;
+        }
+
+       .description-text-info {
+            font-weight: 400;
+            font-size: 16px;
+            color: #606176;
+
+
+        }
+    }
+
+    .publish-info-wrap {
+        h3 {
+            font-weight: 700;
+            font-size: 26px;
+            color: #333333;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #606176;
+
+        }
+    }
+
+}
